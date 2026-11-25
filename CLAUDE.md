@@ -6,7 +6,7 @@ website is planned as a later, separate idea.
 
 The spec is `docs/BRIEF.md`; decisions are in `docs/DECISIONS.md`.
 
-The repo is private until the user approves making it public, after an audit.
+The repo is public (since 2026-11-25): everything committed here is visible to anyone.
 
 ## Not doing
 

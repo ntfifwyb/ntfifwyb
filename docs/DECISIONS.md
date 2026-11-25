@@ -204,3 +204,8 @@ Reason: tidied from the user's wording ("building anything from bureaucracy tool
 
 Choice: freeCodeCamp and notebooks in Pedagogy; the others in Tools. Left out: claude-handoffs (internal), winget-pkgs (fork) and this repo.
 Reason: closest existing groups; every project is shown.
+
+## 2026-11-25: Go public?
+
+Choice: yes, made public after an audit (refs, commits, PR text, files).
+Reason: approved by the user; the audit found only the Gmail address the user chose to show.
