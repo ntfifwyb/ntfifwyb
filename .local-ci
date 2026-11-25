@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Checks every PR must pass, run on this machine by `local-ci` (claude-toolkit).
+set -euo pipefail
+cd "$(dirname "$0")"
+
+echo "== README links only to public repos"
+{ grep -oE 'https://github\.com/[^][() /]+/[^][() /]+' README.md || true; } | sort -u | while read -r url; do
+  repo=${url#https://github.com/}
+  visibility=$(gh api "repos/$repo" --jq .visibility)
+  [ "$visibility" = public ] || { echo "$repo is $visibility; don't link it"; exit 1; }
+done || exit 1
+
+echo "== no widgets or images in the README"
+if grep -nE '!\[|<img' README.md; then echo "plain Markdown only"; exit 1; fi
