@@ -1,98 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 860" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" role="img" aria-label="Web of projects with AI at the centre">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 960" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" role="img" aria-label="Web of projects with AI at the centre">
 <style>text{fill:#1f2328}.b{font-weight:600}.m{fill:#59636e;font-size:11px}.e,.d{stroke:#8c959f;stroke-width:1.2}.d{stroke-dasharray:4 4}.ring{fill:none;stroke:#d1d9e0}.g{fill:#ddf4ff;stroke:#0969da}.k,.c{fill:#0969da}.w{fill:#fff;font-size:20px;font-weight:700}
 @media (prefers-color-scheme:dark){text{fill:#f0f6fc}.m{fill:#9198a1}.e,.d{stroke:#656c76}.ring{stroke:#3d444d}.g{fill:#121d2f;stroke:#4493f8}.k,.c{fill:#4493f8}.w{fill:#0d1117}}</style>
-<circle class="ring" cx="520.0" cy="430.0" r="175"/><circle class="ring" cx="520.0" cy="430.0" r="275"/>
-<line class="e" x1="520.0" y1="430.0" x2="694.8" y2="437.7"/>
-<line class="e" x1="694.8" y1="437.7" x2="744.5" y2="271.1"/>
-<line class="e" x1="694.8" y1="437.7" x2="763.4" y2="302.0"/>
-<line class="e" x1="694.8" y1="437.7" x2="778.1" y2="335.2"/>
-<line class="e" x1="694.8" y1="437.7" x2="788.4" y2="370.0"/>
-<line class="e" x1="694.8" y1="437.7" x2="793.9" y2="405.8"/>
-<line class="e" x1="694.8" y1="437.7" x2="794.7" y2="442.1"/>
-<line class="e" x1="694.8" y1="437.7" x2="790.8" y2="478.2"/>
-<line class="e" x1="694.8" y1="437.7" x2="782.1" y2="513.4"/>
-<line class="e" x1="694.8" y1="437.7" x2="768.8" y2="547.1"/>
-<line class="e" x1="694.8" y1="437.7" x2="751.2" y2="578.9"/>
-<line class="e" x1="694.8" y1="437.7" x2="729.6" y2="608.0"/>
-<line class="d" x1="520.0" y1="430.0" x2="616.3" y2="576.1"/>
-<line class="e" x1="520.0" y1="430.0" x2="526.2" y2="604.9"/>
-<line class="e" x1="526.2" y1="604.9" x2="601.1" y2="692.8"/>
-<line class="e" x1="526.2" y1="604.9" x2="565.8" y2="701.2"/>
-<line class="e" x1="526.2" y1="604.9" x2="529.7" y2="704.8"/>
-<line class="e" x1="526.2" y1="604.9" x2="493.4" y2="703.7"/>
-<line class="e" x1="526.2" y1="604.9" x2="457.6" y2="697.8"/>
-<line class="e" x1="520.0" y1="430.0" x2="427.2" y2="578.4"/>
-<line class="e" x1="427.2" y1="578.4" x2="389.9" y2="672.3"/>
-<line class="e" x1="427.2" y1="578.4" x2="359.1" y2="653.0"/>
-<line class="e" x1="520.0" y1="430.0" x2="349.2" y2="468.2"/>
-<line class="e" x1="349.2" y1="468.2" x2="306.5" y2="603.3"/>
-<line class="e" x1="349.2" y1="468.2" x2="285.6" y2="573.7"/>
-<line class="e" x1="349.2" y1="468.2" x2="268.7" y2="541.6"/>
-<line class="e" x1="349.2" y1="468.2" x2="256.2" y2="507.6"/>
-<line class="e" x1="349.2" y1="468.2" x2="248.3" y2="472.2"/>
-<line class="e" x1="349.2" y1="468.2" x2="245.1" y2="436.0"/>
-<line class="e" x1="349.2" y1="468.2" x2="246.7" y2="399.8"/>
-<line class="e" x1="349.2" y1="468.2" x2="253.0" y2="364.1"/>
-<line class="d" x1="520.0" y1="430.0" x2="368.6" y2="342.2"/>
-<line class="e" x1="520.0" y1="430.0" x2="436.5" y2="276.2"/>
-<line class="e" x1="436.5" y1="276.2" x2="330.3" y2="230.9"/>
-<line class="e" x1="436.5" y1="276.2" x2="358.2" y2="207.7"/>
-<line class="e" x1="436.5" y1="276.2" x2="388.8" y2="188.3"/>
-<line class="e" x1="436.5" y1="276.2" x2="421.8" y2="173.1"/>
-<line class="e" x1="436.5" y1="276.2" x2="456.4" y2="162.4"/>
-<line class="e" x1="520.0" y1="430.0" x2="548.4" y2="257.3"/>
-<line class="e" x1="548.4" y1="257.3" x2="528.5" y2="155.1"/>
-<line class="e" x1="548.4" y1="257.3" x2="564.6" y2="158.6"/>
-<line class="e" x1="548.4" y1="257.3" x2="599.9" y2="166.9"/>
-<line class="e" x1="520.0" y1="430.0" x2="622.4" y2="288.1"/>
-<line class="e" x1="622.4" y1="288.1" x2="665.8" y2="196.8"/>
-<line class="e" x1="622.4" y1="288.1" x2="695.2" y2="218.0"/>
-<circle class="k" cx="744.5" cy="271.1" r="3.5"/><text x="751.8" y="265.9" dominant-baseline="central" text-anchor="start" transform="rotate(-35.3 751.8 265.9)">claude-toolkit</text>
-<circle class="k" cx="763.4" cy="302.0" r="3.5"/><text x="771.4" y="297.8" dominant-baseline="central" text-anchor="start" transform="rotate(-27.7 771.4 297.8)">deep-uninstall-engine</text>
-<circle class="k" cx="778.1" cy="335.2" r="3.5"/><text x="786.6" y="332.1" dominant-baseline="central" text-anchor="start" transform="rotate(-20.2 786.6 332.1)">format-to-format</text>
-<circle class="k" cx="788.4" cy="370.0" r="3.5"/><text x="797.2" y="368.0" dominant-baseline="central" text-anchor="start" transform="rotate(-12.6 797.2 368.0)">local-engine-for-notes-and-search</text>
-<circle class="k" cx="793.9" cy="405.8" r="3.5"/><text x="802.9" y="405.0" dominant-baseline="central" text-anchor="start" transform="rotate(-5.0 802.9 405.0)">networked-encrypted-storage-terminal</text>
-<circle class="k" cx="794.7" cy="442.1" r="3.5"/><text x="803.7" y="442.5" dominant-baseline="central" text-anchor="start" transform="rotate(2.5 803.7 442.5)">open-safe</text>
-<circle class="k" cx="790.8" cy="478.2" r="3.5"/><text x="799.6" y="479.7" dominant-baseline="central" text-anchor="start" transform="rotate(10.1 799.6 479.7)">personal-linux-setup</text>
-<circle class="k" cx="782.1" cy="513.4" r="3.5"/><text x="790.6" y="516.1" dominant-baseline="central" text-anchor="start" transform="rotate(17.6 790.6 516.1)">project-backlog</text>
-<circle class="k" cx="768.8" cy="547.1" r="3.5"/><text x="776.9" y="551.0" dominant-baseline="central" text-anchor="start" transform="rotate(25.2 776.9 551.0)">screen-lighting-control</text>
-<circle class="k" cx="751.2" cy="578.9" r="3.5"/><text x="758.8" y="583.7" dominant-baseline="central" text-anchor="start" transform="rotate(32.8 758.8 583.7)">torrent-getter</text>
-<circle class="k" cx="729.6" cy="608.0" r="3.5"/><text x="736.5" y="613.8" dominant-baseline="central" text-anchor="start" transform="rotate(40.3 736.5 613.8)">voice-home-control</text>
-<circle class="k" cx="601.1" cy="692.8" r="3.5"/><text x="603.7" y="701.4" dominant-baseline="central" text-anchor="start" transform="rotate(72.9 603.7 701.4)">ituzaingostudio</text>
-<circle class="k" cx="565.8" cy="701.2" r="3.5"/><text x="567.3" y="710.0" dominant-baseline="central" text-anchor="start" transform="rotate(80.4 567.3 710.0)">karai-pyhare</text>
-<circle class="k" cx="529.7" cy="704.8" r="3.5"/><text x="530.0" y="713.8" dominant-baseline="central" text-anchor="start" transform="rotate(88.0 530.0 713.8)">godot-game-template</text>
-<circle class="k" cx="493.4" cy="703.7" r="3.5"/><text x="492.6" y="712.7" dominant-baseline="central" text-anchor="end" transform="rotate(275.5 492.6 712.7)">ps2-kit</text>
-<circle class="k" cx="457.6" cy="697.8" r="3.5"/><text x="455.6" y="706.6" dominant-baseline="central" text-anchor="end" transform="rotate(283.1 455.6 706.6)">van-buren-van-buren-and-van-buren</text>
-<circle class="k" cx="389.9" cy="672.3" r="3.5"/><text x="385.6" y="680.2" dominant-baseline="central" text-anchor="end" transform="rotate(298.2 385.6 680.2)">nfsh</text>
-<circle class="k" cx="359.1" cy="653.0" r="3.5"/><text x="353.9" y="660.3" dominant-baseline="central" text-anchor="end" transform="rotate(305.8 353.9 660.3)">swjkja</text>
-<circle class="k" cx="306.5" cy="603.3" r="3.5"/><text x="299.5" y="609.0" dominant-baseline="central" text-anchor="end" transform="rotate(320.9 299.5 609.0)">anki-setup</text>
-<circle class="k" cx="285.6" cy="573.7" r="3.5"/><text x="277.9" y="578.4" dominant-baseline="central" text-anchor="end" transform="rotate(328.5 277.9 578.4)">deutsch</text>
-<circle class="k" cx="268.7" cy="541.6" r="3.5"/><text x="260.5" y="545.3" dominant-baseline="central" text-anchor="end" transform="rotate(336.1 260.5 545.3)">english</text>
-<circle class="k" cx="256.2" cy="507.6" r="3.5"/><text x="247.5" y="510.1" dominant-baseline="central" text-anchor="end" transform="rotate(343.6 247.5 510.1)">espanol</text>
-<circle class="k" cx="248.3" cy="472.2" r="3.5"/><text x="239.4" y="473.6" dominant-baseline="central" text-anchor="end" transform="rotate(351.2 239.4 473.6)">esperanto</text>
-<circle class="k" cx="245.1" cy="436.0" r="3.5"/><text x="236.1" y="436.2" dominant-baseline="central" text-anchor="end" transform="rotate(358.7 236.1 436.2)">mathematics</text>
-<circle class="k" cx="246.7" cy="399.8" r="3.5"/><text x="237.7" y="398.8" dominant-baseline="central" text-anchor="end" transform="rotate(366.3 237.7 398.8)">ink</text>
-<circle class="k" cx="253.0" cy="364.1" r="3.5"/><text x="244.3" y="361.9" dominant-baseline="central" text-anchor="end" transform="rotate(373.9 244.3 361.9)">psittacus</text>
-<circle class="k" cx="330.3" cy="230.9" r="3.5"/><text x="324.1" y="224.4" dominant-baseline="central" text-anchor="end" transform="rotate(406.4 324.1 224.4)">adaptive-instructional-method</text>
-<circle class="k" cx="358.2" cy="207.7" r="3.5"/><text x="352.9" y="200.4" dominant-baseline="central" text-anchor="end" transform="rotate(413.9 352.9 200.4)">freeCodeCamp</text>
-<circle class="k" cx="388.8" cy="188.3" r="3.5"/><text x="384.5" y="180.4" dominant-baseline="central" text-anchor="end" transform="rotate(421.5 384.5 180.4)">higher-dimensions</text>
-<circle class="k" cx="421.8" cy="173.1" r="3.5"/><text x="418.6" y="164.7" dominant-baseline="central" text-anchor="end" transform="rotate(429.1 418.6 164.7)">notebooks</text>
-<circle class="k" cx="456.4" cy="162.4" r="3.5"/><text x="454.4" y="153.7" dominant-baseline="central" text-anchor="end" transform="rotate(436.6 454.4 153.7)">quantum-zeno-effect</text>
-<circle class="k" cx="528.5" cy="155.1" r="3.5"/><text x="528.7" y="146.1" dominant-baseline="central" text-anchor="start" transform="rotate(271.8 528.7 146.1)">diplomatic-vat-refund</text>
-<circle class="k" cx="564.6" cy="158.6" r="3.5"/><text x="566.0" y="149.8" dominant-baseline="central" text-anchor="start" transform="rotate(279.3 566.0 149.8)">relationship-evidence-toolkit</text>
-<circle class="k" cx="599.9" cy="166.9" r="3.5"/><text x="602.5" y="158.3" dominant-baseline="central" text-anchor="start" transform="rotate(286.9 602.5 158.3)">university-hunt</text>
-<circle class="k" cx="665.8" cy="196.8" r="3.5"/><text x="670.6" y="189.2" dominant-baseline="central" text-anchor="start" transform="rotate(302.0 670.6 189.2)">fiona</text>
-<circle class="k" cx="695.2" cy="218.0" r="3.5"/><text x="701.0" y="211.1" dominant-baseline="central" text-anchor="start" transform="rotate(309.6 701.0 211.1)">portico</text>
-<rect class="g" x="666.8" y="423.7" width="56.0" height="28" rx="14"/><text class="b" x="694.8" y="437.7" dominant-baseline="central" text-anchor="middle">Tools</text>
-<rect class="g" x="557.9" y="562.1" width="116.8" height="28" rx="14"/><text class="b" x="616.3" y="576.1" dominant-baseline="central" text-anchor="middle">Cybersecurity</text>
-<text class="m" x="616.3" y="602.1" text-anchor="middle">coming soon</text>
-<rect class="g" x="498.2" y="590.9" width="56.0" height="28" rx="14"/><text class="b" x="526.2" y="604.9" dominant-baseline="central" text-anchor="middle">Games</text>
-<rect class="g" x="372.6" y="564.4" width="109.2" height="28" rx="14"/><text class="b" x="427.2" y="578.4" dominant-baseline="central" text-anchor="middle">Optimization</text>
-<rect class="g" x="325.0" y="454.2" width="48.4" height="28" rx="14"/><text class="b" x="349.2" y="468.2" dominant-baseline="central" text-anchor="middle">Anki</text>
-<rect class="g" x="344.4" y="328.2" width="48.4" height="28" rx="14"/><text class="b" x="368.6" y="342.2" dominant-baseline="central" text-anchor="middle">Math</text>
-<text class="m" x="368.6" y="368.2" text-anchor="middle">coming soon</text>
-<rect class="g" x="397.1" y="262.2" width="78.8" height="28" rx="14"/><text class="b" x="436.5" y="276.2" dominant-baseline="central" text-anchor="middle">Pedagogy</text>
-<rect class="g" x="497.6" y="243.3" width="101.6" height="28" rx="14"/><text class="b" x="548.4" y="257.3" dominant-baseline="central" text-anchor="middle">Bureaucracy</text>
-<rect class="g" x="552.6" y="274.1" width="139.6" height="28" rx="14"/><text class="b" x="622.4" y="288.1" dominant-baseline="central" text-anchor="middle">Entrepreneurship</text>
-<circle class="c" cx="520.0" cy="430.0" r="34"/><text class="w" x="520.0" y="430.0" dominant-baseline="central" text-anchor="middle">AI</text>
+<circle class="ring" cx="540.0" cy="480.0" r="185"/><circle class="ring" cx="540.0" cy="480.0" r="285"/>
+<line class="e" x1="540.0" y1="480.0" x2="724.8" y2="488.1"/>
+<line class="e" x1="724.8" y1="488.1" x2="772.6" y2="315.3"/>
+<line class="e" x1="724.8" y1="488.1" x2="792.3" y2="347.4"/>
+<line class="e" x1="724.8" y1="488.1" x2="807.5" y2="381.7"/>
+<line class="e" x1="724.8" y1="488.1" x2="818.1" y2="417.8"/>
+<line class="e" x1="724.8" y1="488.1" x2="823.9" y2="455.0"/>
+<line class="e" x1="724.8" y1="488.1" x2="824.7" y2="492.5"/>
+<line class="e" x1="724.8" y1="488.1" x2="820.6" y2="529.9"/>
+<line class="e" x1="724.8" y1="488.1" x2="811.6" y2="566.4"/>
+<line class="e" x1="724.8" y1="488.1" x2="797.9" y2="601.4"/>
+<line class="e" x1="724.8" y1="488.1" x2="779.6" y2="634.3"/>
+<line class="e" x1="724.8" y1="488.1" x2="757.2" y2="664.5"/>
+<line class="d" x1="540.0" y1="480.0" x2="641.8" y2="634.4"/>
+<line class="e" x1="540.0" y1="480.0" x2="546.5" y2="664.9"/>
+<line class="e" x1="546.5" y1="664.9" x2="624.0" y2="752.3"/>
+<line class="e" x1="546.5" y1="664.9" x2="587.4" y2="761.0"/>
+<line class="e" x1="546.5" y1="664.9" x2="550.0" y2="764.8"/>
+<line class="e" x1="546.5" y1="664.9" x2="512.5" y2="763.7"/>
+<line class="e" x1="546.5" y1="664.9" x2="475.4" y2="757.6"/>
+<line class="e" x1="540.0" y1="480.0" x2="441.9" y2="636.9"/>
+<line class="e" x1="441.9" y1="636.9" x2="405.2" y2="731.1"/>
+<line class="e" x1="441.9" y1="636.9" x2="373.3" y2="711.2"/>
+<line class="e" x1="540.0" y1="480.0" x2="359.5" y2="520.4"/>
+<line class="e" x1="359.5" y1="520.4" x2="318.8" y2="659.6"/>
+<line class="e" x1="359.5" y1="520.4" x2="297.0" y2="629.0"/>
+<line class="e" x1="359.5" y1="520.4" x2="279.5" y2="595.7"/>
+<line class="e" x1="359.5" y1="520.4" x2="266.6" y2="560.4"/>
+<line class="e" x1="359.5" y1="520.4" x2="258.4" y2="523.7"/>
+<line class="e" x1="359.5" y1="520.4" x2="255.1" y2="486.3"/>
+<line class="e" x1="359.5" y1="520.4" x2="256.7" y2="448.7"/>
+<line class="e" x1="359.5" y1="520.4" x2="263.3" y2="411.7"/>
+<line class="e" x1="540.0" y1="480.0" x2="407.2" y2="351.2"/>
+<line class="e" x1="407.2" y1="351.2" x2="290.7" y2="341.9"/>
+<line class="e" x1="407.2" y1="351.2" x2="311.1" y2="310.3"/>
+<line class="e" x1="407.2" y1="351.2" x2="335.4" y2="281.6"/>
+<line class="e" x1="407.2" y1="351.2" x2="363.3" y2="256.4"/>
+<line class="e" x1="407.2" y1="351.2" x2="394.3" y2="235.1"/>
+<line class="e" x1="540.0" y1="480.0" x2="514.0" y2="296.8"/>
+<line class="e" x1="514.0" y1="296.8" x2="463.2" y2="205.5"/>
+<line class="e" x1="514.0" y1="296.8" x2="500.0" y2="197.8"/>
+<line class="e" x1="514.0" y1="296.8" x2="537.5" y2="195.0"/>
+<line class="d" x1="540.0" y1="480.0" x2="590.2" y2="302.0"/>
+<line class="e" x1="540.0" y1="480.0" x2="648.2" y2="329.9"/>
+<line class="e" x1="648.2" y1="329.9" x2="691.1" y2="238.4"/>
+<line class="e" x1="648.2" y1="329.9" x2="721.6" y2="260.3"/>
+<circle class="k" cx="772.6" cy="315.3" r="3.5"/><text x="780.0" y="310.1" dominant-baseline="central" text-anchor="start" transform="rotate(-35.3 780.0 310.1)">claude-toolkit</text>
+<circle class="k" cx="792.3" cy="347.4" r="3.5"/><text x="800.2" y="343.2" dominant-baseline="central" text-anchor="start" transform="rotate(-27.7 800.2 343.2)">deep-uninstall-engine</text>
+<circle class="k" cx="807.5" cy="381.7" r="3.5"/><text x="816.0" y="378.6" dominant-baseline="central" text-anchor="start" transform="rotate(-20.2 816.0 378.6)">format-to-format</text>
+<circle class="k" cx="818.1" cy="417.8" r="3.5"/><text x="826.9" y="415.8" dominant-baseline="central" text-anchor="start" transform="rotate(-12.6 826.9 415.8)">local-engine-for-notes-and-search</text>
+<circle class="k" cx="823.9" cy="455.0" r="3.5"/><text x="832.9" y="454.2" dominant-baseline="central" text-anchor="start" transform="rotate(-5.0 832.9 454.2)">networked-encrypted-storage-terminal</text>
+<circle class="k" cx="824.7" cy="492.5" r="3.5"/><text x="833.7" y="492.9" dominant-baseline="central" text-anchor="start" transform="rotate(2.5 833.7 492.9)">open-safe</text>
+<circle class="k" cx="820.6" cy="529.9" r="3.5"/><text x="829.5" y="531.5" dominant-baseline="central" text-anchor="start" transform="rotate(10.1 829.5 531.5)">personal-linux-setup</text>
+<circle class="k" cx="811.6" cy="566.4" r="3.5"/><text x="820.2" y="569.1" dominant-baseline="central" text-anchor="start" transform="rotate(17.6 820.2 569.1)">project-backlog</text>
+<circle class="k" cx="797.9" cy="601.4" r="3.5"/><text x="806.0" y="605.2" dominant-baseline="central" text-anchor="start" transform="rotate(25.2 806.0 605.2)">screen-lighting-control</text>
+<circle class="k" cx="779.6" cy="634.3" r="3.5"/><text x="787.2" y="639.1" dominant-baseline="central" text-anchor="start" transform="rotate(32.8 787.2 639.1)">torrent-getter</text>
+<circle class="k" cx="757.2" cy="664.5" r="3.5"/><text x="764.1" y="670.3" dominant-baseline="central" text-anchor="start" transform="rotate(40.3 764.1 670.3)">voice-home-control</text>
+<circle class="k" cx="624.0" cy="752.3" r="3.5"/><text x="626.7" y="760.9" dominant-baseline="central" text-anchor="start" transform="rotate(72.9 626.7 760.9)">ituzaingostudio</text>
+<circle class="k" cx="587.4" cy="761.0" r="3.5"/><text x="588.9" y="769.9" dominant-baseline="central" text-anchor="start" transform="rotate(80.4 588.9 769.9)">karai-pyhare</text>
+<circle class="k" cx="550.0" cy="764.8" r="3.5"/><text x="550.3" y="773.8" dominant-baseline="central" text-anchor="start" transform="rotate(88.0 550.3 773.8)">godot-game-template</text>
+<circle class="k" cx="512.5" cy="763.7" r="3.5"/><text x="511.6" y="772.6" dominant-baseline="central" text-anchor="end" transform="rotate(275.5 511.6 772.6)">ps2-kit</text>
+<circle class="k" cx="475.4" cy="757.6" r="3.5"/><text x="473.3" y="766.3" dominant-baseline="central" text-anchor="end" transform="rotate(283.1 473.3 766.3)">van-buren-van-buren-and-van-buren</text>
+<circle class="k" cx="405.2" cy="731.1" r="3.5"/><text x="400.9" y="739.0" dominant-baseline="central" text-anchor="end" transform="rotate(298.2 400.9 739.0)">nfsh</text>
+<circle class="k" cx="373.3" cy="711.2" r="3.5"/><text x="368.0" y="718.5" dominant-baseline="central" text-anchor="end" transform="rotate(305.8 368.0 718.5)">swjkja</text>
+<circle class="k" cx="318.8" cy="659.6" r="3.5"/><text x="311.8" y="665.3" dominant-baseline="central" text-anchor="end" transform="rotate(320.9 311.8 665.3)">anki-setup</text>
+<circle class="k" cx="297.0" cy="629.0" r="3.5"/><text x="289.4" y="633.7" dominant-baseline="central" text-anchor="end" transform="rotate(328.5 289.4 633.7)">deutsch</text>
+<circle class="k" cx="279.5" cy="595.7" r="3.5"/><text x="271.3" y="599.3" dominant-baseline="central" text-anchor="end" transform="rotate(336.1 271.3 599.3)">english</text>
+<circle class="k" cx="266.6" cy="560.4" r="3.5"/><text x="257.9" y="562.9" dominant-baseline="central" text-anchor="end" transform="rotate(343.6 257.9 562.9)">espanol</text>
+<circle class="k" cx="258.4" cy="523.7" r="3.5"/><text x="249.5" y="525.1" dominant-baseline="central" text-anchor="end" transform="rotate(351.2 249.5 525.1)">esperanto</text>
+<circle class="k" cx="255.1" cy="486.3" r="3.5"/><text x="246.1" y="486.5" dominant-baseline="central" text-anchor="end" transform="rotate(358.7 246.1 486.5)">mathematics</text>
+<circle class="k" cx="256.7" cy="448.7" r="3.5"/><text x="247.8" y="447.7" dominant-baseline="central" text-anchor="end" transform="rotate(366.3 247.8 447.7)">ink</text>
+<circle class="k" cx="263.3" cy="411.7" r="3.5"/><text x="254.6" y="409.5" dominant-baseline="central" text-anchor="end" transform="rotate(373.9 254.6 409.5)">psittacus</text>
+<circle class="k" cx="290.7" cy="341.9" r="3.5"/><text x="282.8" y="337.5" dominant-baseline="central" text-anchor="end" transform="rotate(389.0 282.8 337.5)">adaptive-instructional-method</text>
+<circle class="k" cx="311.1" cy="310.3" r="3.5"/><text x="303.8" y="304.9" dominant-baseline="central" text-anchor="end" transform="rotate(396.6 303.8 304.9)">freeCodeCamp</text>
+<circle class="k" cx="335.4" cy="281.6" r="3.5"/><text x="328.9" y="275.3" dominant-baseline="central" text-anchor="end" transform="rotate(404.1 328.9 275.3)">higher-dimensions</text>
+<circle class="k" cx="363.3" cy="256.4" r="3.5"/><text x="357.7" y="249.3" dominant-baseline="central" text-anchor="end" transform="rotate(411.7 357.7 249.3)">notebooks</text>
+<circle class="k" cx="394.3" cy="235.1" r="3.5"/><text x="389.7" y="227.4" dominant-baseline="central" text-anchor="end" transform="rotate(419.2 389.7 227.4)">quantum-zeno-effect</text>
+<circle class="k" cx="463.2" cy="205.5" r="3.5"/><text x="460.8" y="196.9" dominant-baseline="central" text-anchor="end" transform="rotate(434.4 460.8 196.9)">diplomatic-vat-refund</text>
+<circle class="k" cx="500.0" cy="197.8" r="3.5"/><text x="498.7" y="188.9" dominant-baseline="central" text-anchor="end" transform="rotate(441.9 498.7 188.9)">relationship-evidence-toolkit</text>
+<circle class="k" cx="537.5" cy="195.0" r="3.5"/><text x="537.4" y="186.0" dominant-baseline="central" text-anchor="end" transform="rotate(449.5 537.4 186.0)">university-hunt</text>
+<circle class="k" cx="691.1" cy="238.4" r="3.5"/><text x="695.9" y="230.7" dominant-baseline="central" text-anchor="start" transform="rotate(302.0 695.9 230.7)">fiona</text>
+<circle class="k" cx="721.6" cy="260.3" r="3.5"/><text x="727.3" y="253.4" dominant-baseline="central" text-anchor="start" transform="rotate(309.6 727.3 253.4)">portico</text>
+<rect class="g" x="696.8" y="474.1" width="56.0" height="28" rx="14"/><text class="b" x="724.8" y="488.1" dominant-baseline="central" text-anchor="middle">Tools</text>
+<rect class="g" x="583.4" y="620.4" width="116.8" height="28" rx="14"/><text class="b" x="641.8" y="634.4" dominant-baseline="central" text-anchor="middle">Cybersecurity</text>
+<text class="m" x="641.8" y="660.4" text-anchor="middle">coming soon</text>
+<rect class="g" x="518.5" y="650.9" width="56.0" height="28" rx="14"/><text class="b" x="546.5" y="664.9" dominant-baseline="central" text-anchor="middle">Games</text>
+<rect class="g" x="387.3" y="622.9" width="109.2" height="28" rx="14"/><text class="b" x="441.9" y="636.9" dominant-baseline="central" text-anchor="middle">Optimization</text>
+<rect class="g" x="335.3" y="506.4" width="48.4" height="28" rx="14"/><text class="b" x="359.5" y="520.4" dominant-baseline="central" text-anchor="middle">Anki</text>
+<rect class="g" x="367.8" y="337.2" width="78.8" height="28" rx="14"/><text class="b" x="407.2" y="351.2" dominant-baseline="central" text-anchor="middle">Pedagogy</text>
+<rect class="g" x="463.2" y="282.8" width="101.6" height="28" rx="14"/><text class="b" x="514.0" y="296.8" dominant-baseline="central" text-anchor="middle">Bureaucracy</text>
+<rect class="g" x="566.0" y="288.0" width="48.4" height="28" rx="14"/><text class="b" x="590.2" y="302.0" dominant-baseline="central" text-anchor="middle">Math</text>
+<text class="m" x="590.2" y="328.0" text-anchor="middle">coming soon</text>
+<rect class="g" x="578.4" y="315.9" width="139.6" height="28" rx="14"/><text class="b" x="648.2" y="329.9" dominant-baseline="central" text-anchor="middle">Entrepreneurship</text>
+<circle class="c" cx="540.0" cy="480.0" r="34"/><text class="w" x="540.0" y="480.0" dominant-baseline="central" text-anchor="middle">AI</text>
 </svg>
