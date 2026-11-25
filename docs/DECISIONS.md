@@ -189,3 +189,18 @@ Reason: the brief was already public in project-backlog; the audit covers them. 
 
 Choice: existing groups: fiona in Entrepreneurship; van-buren-van-buren-and-van-buren and game templates in Games; university-hunt in Bureaucracy; utilities, voice-home-control and setup repos in Tools. Forks and internal repos (such as claude-handoffs) are left out.
 Reason: every project is shown without adding groups. Answered by the user.
+
+## 2026-11-25: Public contacts at launch?
+
+Choice: the user's Gmail address; no paid domain for now; LinkedIn is added when the user gives the URL.
+Reason: the user gave the Gmail address and asked whether to buy a domain; a domain costs money and fits the later portfolio website.
+
+## 2026-11-25: Intro line?
+
+Choice: "AI-focused developer building everything from bureaucracy tools to compression tools."
+Reason: tidied from the user's wording ("building anything from bureaucracy tools to compression tools"); role and focus first, which recruiters skim for.
+
+## 2026-11-25: Where do freeCodeCamp, notebooks, format-to-format, claude-toolkit and project-backlog go? (decided by Claude, pending review)
+
+Choice: freeCodeCamp and notebooks in Pedagogy; the others in Tools. Left out: claude-handoffs (internal), winget-pkgs (fork) and this repo.
+Reason: closest existing groups; every project is shown.
