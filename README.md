@@ -2,7 +2,10 @@ AI-focused developer building everything from bureaucracy tools to compression t
 
 [Email](mailto:thiagolbello@gmail.com)
 
-![Web of projects with AI at the centre](docs/web.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/web-dark.svg">
+  <img alt="Projects grouped around AI" src="docs/web-light.svg">
+</picture>
 
 <details>
 <summary>Links</summary>
