@@ -195,10 +195,10 @@ Reason: every project is shown without adding groups. Answered by the user.
 Choice: the user's Gmail address; no paid domain for now; LinkedIn is added when the user gives the URL.
 Reason: the user gave the Gmail address and asked whether to buy a domain; a domain costs money and fits the later portfolio website.
 
-## 2026-11-25: Intro line? (decided by Claude, pending review)
+## 2026-11-25: Intro line?
 
-Choice: "AI-focused software developer building tools, games and learning software."
-Reason: the user asked what is best for industry; role and focus are what recruiters skim for.
+Choice: "AI-focused developer building everything from bureaucracy tools to compression tools."
+Reason: tidied from the user's wording ("building anything from bureaucracy tools to compression tools"); role and focus first, which recruiters skim for.
 
 ## 2026-11-25: Where do freeCodeCamp, notebooks, format-to-format, claude-toolkit and project-backlog go? (decided by Claude, pending review)
 

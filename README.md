@@ -1,4 +1,4 @@
-AI-focused software developer building tools, games and learning software.
+AI-focused developer building everything from bureaucracy tools to compression tools.
 
 [Email](mailto:thiagolbello@gmail.com)
 
