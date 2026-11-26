@@ -11,9 +11,12 @@ echo "== README links only to public repos"
 done || exit 1
 
 echo "== web and links table match scripts/web.py"
-python3 -I scripts/web.py
+PYTHONDONTWRITEBYTECODE=1 python3 -I scripts/web.py
 git diff --exit-code -- README.md docs/web-light.svg docs/web-dark.svg \
   || { echo "run python3 scripts/web.py and commit the result"; exit 1; }
+
+echo "== no build output tracked"
+if git ls-files | grep -E "__pycache__|\.pyc$"; then echo "remove build output"; exit 1; fi
 
 echo "== no third-party images or widgets"
 if grep -nE '!\[|<img' README.md | grep -v 'src="docs/web-light.svg"'; then echo "only the web image is allowed"; exit 1; fi
