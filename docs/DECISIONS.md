@@ -209,3 +209,23 @@ Reason: closest existing groups; every project is shown.
 
 Choice: yes, made public after an audit (refs, commits, PR text, files).
 Reason: approved by the user; the audit found only the Gmail address the user chose to show.
+
+## 2026-11-26: How is the web drawn?
+
+Choice: an SVG drawn by `scripts/web.py` (light and dark versions, picked by the viewer's theme), replacing the Mermaid diagram; the project names and links move to a collapsed "Links" table below it, generated from the same list.
+Reason: Mermaid on GitHub could not draw a round, uncluttered web (radial layouts overlapped or failed to render). The user chose the drawn version, with a minimal style: grayscale, horizontal text, a black AI circle with white text.
+
+## 2026-11-26: Two hemispheres
+
+Choice: AI in the middle; Development on the left (every current group), Research on the right (Machine Learning, Mathematics). The web shows groups with their project counts, not each project.
+Reason: the user's design; Research is meant to fill up over time, so its half stays mostly empty for now. Groups only keep the text legible at GitHub's width.
+
+## 2026-11-26: Notebooks
+
+Choice: notebooks move from Pedagogy to Research → Machine Learning. Every notebook repo is labelled "notebooks"; its group says which kind (a future mathematics-notebooks repo goes under Mathematics). Math becomes Mathematics, under Research.
+Reason: answered by the user.
+
+## 2026-11-26: Intro line
+
+Choice: none; the README starts with the contact links.
+Reason: the user asked to remove it.

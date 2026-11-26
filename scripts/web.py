@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Draw the project web (docs/web-light.svg, docs/web-dark.svg) and the README links table.
+"""Draw the project web: AI in the middle, a hemisphere each side, its groups around it, with how many projects each holds (docs/web-light.svg, docs/web-dark.svg), and the README
+links table, which names every project.
 
 The project list below is the only source: edit it, then run `python3 scripts/web.py`.
-A project with a URL is public and gets a link in the table; None means private (name only).
-A group with no projects is shown as "coming soon".
+Each project is (label, url). The label is what the web shows, not necessarily the repo name:
+several notebook repos (say mathematics-notebooks, machine-learning-notebooks) are each just
+"notebooks", and their group says which kind. A url means public: the table links it; None
+means private (label only). A group with no projects is shown as "coming soon".
 """
 import math
 import re
@@ -34,7 +37,7 @@ DEVELOPMENT = {
     "Cybersecurity": [],
 }
 RESEARCH = {
-    "AI research": [("notebooks", None)],
+    "Machine Learning": [("notebooks", None)],
     "Mathematics": [],
 }
 HEMISPHERES = [("Development", DEVELOPMENT, -1), ("Research", RESEARCH, 1)]
@@ -43,12 +46,12 @@ THEMES = {
     "light": dict(ink="#1f2328", mute="#59636e", line="#d1d9e0", core="#000", ring="#000"),
     "dark": dict(ink="#f0f6fc", mute="#9198a1", line="#3d444d", core="#000", ring="#656c76"),
 }
-W, H = 1100, 960
-CX, CY = W / 2, H / 2
-RX, RY = 230, 440  # projects sit on an ellipse around their hemisphere's label
-PITCH = 2 * RY * 0.86 / 42  # row spacing; the fullest hemisphere fills the height
-HUB = 120  # distance from AI to each hemisphere's label
+CX, CY = 0, 0  # AI; the canvas is cropped to the drawing afterwards
+HUB = 130  # from AI to each hemisphere's label
+R = 210  # groups sit on an arc of this radius, so each hemisphere is round
+PITCH = 46  # vertical distance between groups
 SOON = "coming soon"
+PAD = 20
 
 
 def f(v):
@@ -56,46 +59,38 @@ def f(v):
 
 
 def width(text, size):
+    """Rough rendered width of text: good enough to crop the canvas and leave room."""
     return len(text) * size * 0.56
 
 
-def exit_point(gx, gy, hw, px, py, hh=12):
-    """Where the line from a label's centre towards (px, py) leaves the label's box."""
-    dx, dy = px - gx, py - gy
-    t = min(hw / abs(dx) if dx else 1e9, hh / abs(dy) if dy else 1e9)
-    return f"{f(gx + dx * t)} {f(gy + dy * t)}"
+def count(projects):
+    return f"{len(projects)} project{'s' * (len(projects) != 1)}" if projects else SOON
 
 
 def draw(t):
-    lines, texts = [], []
+    lines, texts, xs, ys = [], [], [], []
+    anchor = {-1: "end", 1: "start"}
     for name, groups, side in HEMISPHERES:
-        hx, hw = CX + side * HUB, width(name, 18) / 2 + 8
-        lines.append(f'<path d="M{f(CX + side * 34)} {f(CY)}L{exit_point(hx, CY, hw, CX, CY)}"/>')
+        hx, hw = CX + side * HUB, width(name, 18) / 2 + 6
+        lines.append(f'<path d="M{f(CX + side * 27)} {f(CY)}H{f(hx - side * hw)}"/>')
         texts.append(f'<text class="h" x="{f(hx)}" y="{f(CY)}">{name}</text>')
-        leaves = {g: [n for n, _ in p] or [SOON] for g, p in groups.items()}
-        rows = sum(map(len, leaves.values())) + len(leaves) - 1
-        y = CY - (rows - 1) * PITCH / 2
-        for group, names in leaves.items():
-            ys = [y + i * PITCH for i in range(len(names))]
-            y += (len(names) + 1) * PITCH
-            pts = [(hx + side * RX * math.sqrt(max(0, 1 - ((v - CY) / RY) ** 2)), v) for v in ys]
-            my = sum(ys) / len(ys)
-            mx = sum(x for x, _ in pts) / len(pts)
-            gy = CY + (my - CY) * 0.82
-            gx = hx + side * RX * 0.5 * math.sqrt(max(0, 1 - ((gy - CY) / (RY * 0.8)) ** 2)) + side * 30
-            gw = width(group, 15) / 2 + 8
-            lines.append(f'<path d="M{exit_point(hx, CY, hw, gx, gy)}L{exit_point(gx, gy, gw, hx, CY)}"/>')
-            texts.append(f'<text class="g" x="{f(gx)}" y="{f(gy)}">{group}</text>')
-            anchor = "start" if side > 0 else "end"
-            for (x, py), n in zip(pts, names):
-                lines.append(f'<path d="M{exit_point(gx, gy, gw, x, py)}L{f(x)} {f(py)}"/>')
-                cls = ' class="s"' if n == SOON else ""
-                texts.append(f'<circle cx="{f(x)}" cy="{f(py)}" r="2.5"/>'
-                             f'<text{cls} x="{f(x + side * 10)}" y="{f(py)}" text-anchor="{anchor}">{n}</text>')
-    x0 = CX - HUB - RX - 10 - max(width(n, 14) for g in DEVELOPMENT.values() for n, _ in g) - 12
-    x1 = CX + HUB + RX * 0.9 + 10 + max([width(n, 14) for g in RESEARCH.values() for n, _ in g] + [width(SOON, 14)]) + 12
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="{f(x0)} 50 {f(x1 - x0)} {H - 100}" role="img" aria-label="Projects in two hemispheres around AI: development and research" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14">
-<style>text{{fill:{t['mute']};dominant-baseline:central}}.h,.g{{fill:{t['ink']};text-anchor:middle;font-weight:600}}.h{{font-size:18px}}.g{{font-size:15px}}.s{{font-style:italic}}circle{{fill:{t['mute']}}}path{{stroke:{t['line']};fill:none}}</style>
+        n = len(groups)
+        for i, (group, projects) in enumerate(groups.items()):
+            y = CY + (i - (n - 1) / 2) * PITCH
+            x = hx + side * (hw + 40 + 0.75 * R * math.sqrt(max(0, 1 - ((y - CY) / (R * 1.05)) ** 2)))
+            lines.append(f'<path d="M{f(hx + side * hw)} {f(CY)}L{f(x)} {f(y)}"/>')
+            tx = x + side * 12
+            texts.append(f'<circle cx="{f(x)}" cy="{f(y)}" r="3"/>'
+                         f'<text class="g" x="{f(tx)}" y="{f(y - 8)}" text-anchor="{anchor[side]}">{group}</text>'
+                         f'<text class="c" x="{f(tx)}" y="{f(y + 10)}" text-anchor="{anchor[side]}">{count(projects)}</text>')
+            xs.append(tx + side * width(group, 15))
+            ys += [y - 18, y + 20]
+    x0, x1 = min(xs) - PAD, max(xs) + PAD
+    # centre AI on the canvas, so the empty half reads as room to grow
+    half = max(CX - x0, x1 - CX)
+    y0, y1 = min(ys) - PAD, max(ys) + PAD
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="{f(CX - half)} {f(y0)} {f(2 * half)} {f(y1 - y0)}" role="img" aria-label="Project groups in two hemispheres around AI: development and research" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14">
+<style>text{{fill:{t['mute']};dominant-baseline:central}}.h,.g{{fill:{t['ink']};font-weight:600}}.h{{font-size:18px;text-anchor:middle}}.g{{font-size:15px}}.c{{font-size:12px}}circle{{fill:{t['mute']}}}path{{stroke:{t['line']};fill:none}}</style>
 {chr(10).join(lines + texts)}
 <circle cx="{f(CX)}" cy="{f(CY)}" r="26" style="fill:{t['core']};stroke:{t['ring']}"/><text x="{f(CX)}" y="{f(CY)}" text-anchor="middle" style="fill:#fff;font-weight:700;font-size:16px">AI</text>
 </svg>

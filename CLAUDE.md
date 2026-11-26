@@ -6,6 +6,9 @@ website is planned as a later, separate idea.
 
 The spec is `docs/BRIEF.md`; decisions are in `docs/DECISIONS.md`.
 
+The web and the README links table are drawn by `scripts/web.py` from the project list in it:
+edit the list, run `python3 scripts/web.py`, commit the output (`.local-ci` checks they match).
+
 The repo is public (since 2026-11-25): everything committed here is visible to anyone.
 
 ## Not doing

@@ -10,5 +10,10 @@ echo "== README links only to public repos"
   [ "$visibility" = public ] || { echo "$repo is $visibility; don't link it"; exit 1; }
 done || exit 1
 
-echo "== no widgets or images in the README"
-if grep -nE '!\[|<img' README.md; then echo "plain Markdown only"; exit 1; fi
+echo "== web and links table match scripts/web.py"
+python3 -I scripts/web.py
+git diff --exit-code -- README.md docs/web-light.svg docs/web-dark.svg \
+  || { echo "run python3 scripts/web.py and commit the result"; exit 1; }
+
+echo "== no third-party images or widgets"
+if grep -nE '!\[|<img' README.md | grep -v 'src="docs/web-light.svg"'; then echo "only the web image is allowed"; exit 1; fi

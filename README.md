@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/web-dark.svg">
-  <img alt="Projects grouped around AI" src="docs/web-light.svg">
+  <img alt="Project groups in two hemispheres around AI: development and research" src="docs/web-light.svg">
 </picture>
 
 <details>
@@ -18,7 +18,7 @@
 | **Games** | [ituzaingostudio](https://github.com/ituzaingostudio) · karai-pyhare · godot-game-template · ps2-kit · van-buren-van-buren-and-van-buren |
 | **Pedagogy** | adaptive-instructional-method · [freeCodeCamp](https://github.com/ntfifwyb/freeCodeCamp) · [higher-dimensions](https://github.com/instructional-pages/higher-dimensions) · [quantum-zeno-effect](https://github.com/instructional-pages/quantum-zeno-effect) |
 | **Optimization** | [nfsh](https://github.com/cmprssd/nfsh) · [swjkja](https://github.com/cmprssd/swjkja) |
-| **AI research** | notebooks |
+| **Machine Learning** | notebooks |
 <!-- /links -->
 
 </details>
