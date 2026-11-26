@@ -234,3 +234,8 @@ Reason: the user asked to remove it.
 
 Choice: no circle; the centre reads "Artificial / Intelligence", one word per line, in bold.
 Reason: asked by the user.
+
+## 2026-11-26: Contact line
+
+Choice: "portfolio · email · linkedin", lowercase, all unlinked for now; each becomes a link once its URL exists (the portfolio site is a later project).
+Reason: the user's choice; they prefer the lowercase look.

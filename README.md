@@ -1,4 +1,4 @@
-[Email](mailto:thiagolbello@gmail.com)
+portfolio · email · linkedin
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/web-dark.svg">
