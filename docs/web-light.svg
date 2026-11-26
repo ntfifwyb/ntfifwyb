@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-539.4 -199.0 1078.7 400.0" role="img" aria-label="Project groups in two hemispheres around AI: development and research" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14">
+<style>text{fill:#59636e;dominant-baseline:central}.h,.g{fill:#1f2328;font-weight:600}.h{font-size:18px;text-anchor:middle}.g{font-size:15px}.c{font-size:12px}circle{fill:#59636e}path{stroke:#d1d9e0;fill:none}</style>
+<path d="M-27.0 0.0H-68.6"/>
+<path d="M-191.4 0.0L-339.1 -161.0"/>
+<path d="M-191.4 0.0L-365.8 -115.0"/>
+<path d="M-191.4 0.0L-381.0 -69.0"/>
+<path d="M-191.4 0.0L-388.1 -23.0"/>
+<path d="M-191.4 0.0L-388.1 23.0"/>
+<path d="M-191.4 0.0L-381.0 69.0"/>
+<path d="M-191.4 0.0L-365.8 115.0"/>
+<path d="M-191.4 0.0L-339.1 161.0"/>
+<path d="M27.0 0.0H83.7"/>
+<path d="M176.3 0.0L373.0 -23.0"/>
+<path d="M176.3 0.0L373.0 23.0"/>
+<text class="h" x="-130.0" y="0.0">Development</text>
+<circle cx="-339.1" cy="-161.0" r="3"/><text class="g" x="-351.1" y="-169.0" text-anchor="end">Entrepreneurship</text><text class="c" x="-351.1" y="-151.0" text-anchor="end">2 projects</text>
+<circle cx="-365.8" cy="-115.0" r="3"/><text class="g" x="-377.8" y="-123.0" text-anchor="end">Bureaucracy</text><text class="c" x="-377.8" y="-105.0" text-anchor="end">3 projects</text>
+<circle cx="-381.0" cy="-69.0" r="3"/><text class="g" x="-393.0" y="-77.0" text-anchor="end">Tools</text><text class="c" x="-393.0" y="-59.0" text-anchor="end">11 projects</text>
+<circle cx="-388.1" cy="-23.0" r="3"/><text class="g" x="-400.1" y="-31.0" text-anchor="end">Anki</text><text class="c" x="-400.1" y="-13.0" text-anchor="end">8 projects</text>
+<circle cx="-388.1" cy="23.0" r="3"/><text class="g" x="-400.1" y="15.0" text-anchor="end">Games</text><text class="c" x="-400.1" y="33.0" text-anchor="end">5 projects</text>
+<circle cx="-381.0" cy="69.0" r="3"/><text class="g" x="-393.0" y="61.0" text-anchor="end">Pedagogy</text><text class="c" x="-393.0" y="79.0" text-anchor="end">4 projects</text>
+<circle cx="-365.8" cy="115.0" r="3"/><text class="g" x="-377.8" y="107.0" text-anchor="end">Optimization</text><text class="c" x="-377.8" y="125.0" text-anchor="end">2 projects</text>
+<circle cx="-339.1" cy="161.0" r="3"/><text class="g" x="-351.1" y="153.0" text-anchor="end">Cybersecurity</text><text class="c" x="-351.1" y="171.0" text-anchor="end">coming soon</text>
+<text class="h" x="130.0" y="0.0">Research</text>
+<circle cx="373.0" cy="-23.0" r="3"/><text class="g" x="385.0" y="-31.0" text-anchor="start">Machine Learning</text><text class="c" x="385.0" y="-13.0" text-anchor="start">1 project</text>
+<circle cx="373.0" cy="23.0" r="3"/><text class="g" x="385.0" y="15.0" text-anchor="start">Mathematics</text><text class="c" x="385.0" y="33.0" text-anchor="start">coming soon</text>
+<circle cx="0.0" cy="0.0" r="26" style="fill:#000;stroke:#000"/><text x="0.0" y="0.0" text-anchor="middle" style="fill:#fff;font-weight:700;font-size:16px">AI</text>
+</svg>
