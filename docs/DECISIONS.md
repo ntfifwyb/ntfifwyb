@@ -229,3 +229,8 @@ Reason: answered by the user.
 
 Choice: none; the README starts with the contact links.
 Reason: the user asked to remove it.
+
+## 2026-11-26: The centre
+
+Choice: no circle; the centre reads "Artificial / Intelligence", one word per line, in bold.
+Reason: asked by the user.
