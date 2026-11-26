@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/web-dark.svg">
-  <img alt="Project groups in two hemispheres around AI: development and research" src="docs/web-light.svg">
+  <img alt="Project groups in two hemispheres around artificial intelligence: development and research" src="docs/web-light.svg">
 </picture>
 
 <details>

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draw the project web: AI in the middle, a hemisphere each side, its groups around it, with how many projects each holds (docs/web-light.svg, docs/web-dark.svg), and the README
+"""Draw the project web: Artificial Intelligence in the middle, a hemisphere each side, its groups around it, with how many projects each holds (docs/web-light.svg, docs/web-dark.svg), and the README
 links table, which names every project.
 
 The project list below is the only source: edit it, then run `python3 scripts/web.py`.
@@ -43,17 +43,9 @@ RESEARCH = {
 HEMISPHERES = [("Development", DEVELOPMENT, -1), ("Research", RESEARCH, 1)]
 
 THEMES = {
-    "light": dict(ink="#1f2328", mute="#59636e", line="#d1d9e0", core="#000", ring="#000"),
-    "dark": dict(ink="#f0f6fc", mute="#9198a1", line="#3d444d", core="#000", ring="#656c76"),
+    "light": dict(ink="#1f2328", mute="#59636e", line="#d1d9e0"),
+    "dark": dict(ink="#f0f6fc", mute="#9198a1", line="#3d444d"),
 }
-CX, CY = 0, 0  # AI; the canvas is cropped to the drawing afterwards
-HUB = 130  # from AI to each hemisphere's label
-R = 210  # groups sit on an arc of this radius, so each hemisphere is round
-PITCH = 46  # vertical distance between groups
-SOON = "coming soon"
-PAD = 20
-
-
 def f(v):
     return f"{v:.1f}"
 
@@ -61,6 +53,16 @@ def f(v):
 def width(text, size):
     """Rough rendered width of text: good enough to crop the canvas and leave room."""
     return len(text) * size * 0.56
+
+
+CX, CY = 0, 0  # the centre; the canvas is cropped to the drawing afterwards
+CORE = ("Artificial", "Intelligence")  # the centre, one word per line
+CORE_HW = width(max(CORE, key=len), 18) / 2  # half its width, where the lines start
+HUB = CORE_HW + 110  # from the centre to each hemisphere's label
+R = 210  # groups sit on an arc of this radius, so each hemisphere is round
+PITCH = 46  # vertical distance between groups
+SOON = "coming soon"
+PAD = 20
 
 
 def count(projects):
@@ -72,7 +74,7 @@ def draw(t):
     anchor = {-1: "end", 1: "start"}
     for name, groups, side in HEMISPHERES:
         hx, hw = CX + side * HUB, width(name, 18) / 2 + 6
-        lines.append(f'<path d="M{f(CX + side * 27)} {f(CY)}H{f(hx - side * hw)}"/>')
+        lines.append(f'<path d="M{f(CX + side * CORE_HW)} {f(CY)}H{f(hx - side * hw)}"/>')
         texts.append(f'<text class="h" x="{f(hx)}" y="{f(CY)}">{name}</text>')
         n = len(groups)
         for i, (group, projects) in enumerate(groups.items()):
@@ -86,13 +88,13 @@ def draw(t):
             xs.append(tx + side * width(group, 15))
             ys += [y - 18, y + 20]
     x0, x1 = min(xs) - PAD, max(xs) + PAD
-    # centre AI on the canvas, so the empty half reads as room to grow
+    # centre the middle on the canvas, so the empty half reads as room to grow
     half = max(CX - x0, x1 - CX)
     y0, y1 = min(ys) - PAD, max(ys) + PAD
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="{f(CX - half)} {f(y0)} {f(2 * half)} {f(y1 - y0)}" role="img" aria-label="Project groups in two hemispheres around AI: development and research" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14">
-<style>text{{fill:{t['mute']};dominant-baseline:central}}.h,.g{{fill:{t['ink']};font-weight:600}}.h{{font-size:18px;text-anchor:middle}}.g{{font-size:15px}}.c{{font-size:12px}}circle{{fill:{t['mute']}}}path{{stroke:{t['line']};fill:none}}</style>
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="{f(CX - half)} {f(y0)} {f(2 * half)} {f(y1 - y0)}" role="img" aria-label="Project groups in two hemispheres around artificial intelligence: development and research" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14">
+<style>text{{fill:{t['mute']};dominant-baseline:central}}.h,.g{{fill:{t['ink']};font-weight:600}}.h{{font-size:18px;text-anchor:middle}}.g{{font-size:15px}}.c{{font-size:12px}}.a{{fill:{t['ink']};font-weight:700;font-size:18px;text-anchor:middle}}circle{{fill:{t['mute']}}}path{{stroke:{t['line']};fill:none}}</style>
 {chr(10).join(lines + texts)}
-<circle cx="{f(CX)}" cy="{f(CY)}" r="26" style="fill:{t['core']};stroke:{t['ring']}"/><text x="{f(CX)}" y="{f(CY)}" text-anchor="middle" style="fill:#fff;font-weight:700;font-size:16px">AI</text>
+<text class="a" x="{f(CX)}" y="{f(CY - 11)}">{CORE[0]}</text><text class="a" x="{f(CX)}" y="{f(CY + 11)}">{CORE[1]}</text>
 </svg>
 """
 
